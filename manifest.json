@@ -1,13 +1,18 @@
 {
 	"manifest_version": 2,
 
-	"name": "Extension Name",
-	"description": "Extension Description",
+	"name": "Tomato1",
+	"description": "Pomodoro Timer Demo",
 	"version": "1.0",
 
 	"browser_action": {
 		"default_icon": "icon.png",
-		"default_title": "Chrome Extension Title",
+		"default_title": "Tomato",
 		"default_popup": "popup.html"
-	}
+	},
+	"background": {
+		"scripts": ["moment.js", "background.js"],
+		"persistent": false
+	},
+	"permissions": ["notifications"]
 }

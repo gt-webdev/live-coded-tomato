@@ -1,1 +1,7 @@
-This is a starter folder for creating chrome extensions with 1 popup page.
+Live-coded version of [Tomato](https://github.com/gt-webdev/tomato). Simplified version.
+
+Does not have:
+
+- Delay between pomodoro and break states
+- Badge updates
+- Break time selection or persistence.
